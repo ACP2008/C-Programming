@@ -1,39 +1,27 @@
-# 💻 C Programming
+# 🚀 C Programming
 
-<div align="center">
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Compiler](https://img.shields.io/badge/Compiler-GCC-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![C](https://img.shields.io/badge/Language-C-blue.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/ACP2008/C-Programming)
-![GitHub last commit](https://img.shields.io/github/last-commit/ACP2008/C-Programming)
-![GitHub stars](https://img.shields.io/github/stars/ACP2008/C-Programming?style=social)
+A complete collection of **C Programming** examples and practical programs for beginners.
 
-**A collection of C Programming programs, practicals, and problem-solving exercises.**
-
-*Created while learning C Programming from beginner to advanced.*
-
-</div>
+This repository contains basic to advanced C programs, organized topic-wise to help students learn C Programming step by step.
 
 ---
 
-## 📖 About
+## 📚 Topics Covered
 
-This repository contains my C Programming journey.
-
-It includes:
-
-- ✅ Basic C Programs
-- ✅ Practical Programs
-- ✅ Pattern Programs
-- ✅ Number Programs
-- ✅ Functions
+- ✅ Basic Programs
+- ✅ Decision Making
+- ✅ Loops
 - ✅ Arrays
-- ✅ Strings
+- ✅ Functions
 - ✅ Pointers
 - ✅ Structures
 - ✅ File Handling
 - ✅ Mini Projects
-
-The goal of this repository is to improve my programming logic, problem-solving skills, and prepare for Data Science and Software Development.
 
 ---
 
@@ -41,135 +29,227 @@ The goal of this repository is to improve my programming logic, problem-solving 
 
 ```
 C-Programming/
-
-│── 01-Basic-Programs/
-│── 02-Decision-Making/
-│── 03-Loops/
-│── 04-Functions/
-│── 05-Arrays/
-│── 06-Strings/
-│── 07-Pointers/
-│── 08-Structures/
-│── 09-File-Handling/
-│── 10-Patterns/
-│── 11-Mini-Projects/
-│── README.md
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── 01-Basic-Programs/
+├── 02-Decision-Making/
+├── 03-Loops/
+├── 04-Arrays/
+├── 05-Functions/
+├── 06-Pointers/
+├── 07-Structures/
+├── 08-File-Handling/
+└── 09-Projects/
 ```
 
 ---
 
-# 🚀 How to Run
+# 📖 Folder Details
 
-### Clone Repository
+## 📁 01-Basic-Programs
+
+- Hello World
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Swap Two Numbers
+- Area of Circle
+- Simple Interest
+- Temperature Conversion
+
+---
+
+## 📁 02-Decision-Making
+
+- Odd / Even
+- Positive / Negative
+- Largest of Two Numbers
+- Largest of Three Numbers
+- Smallest of Three Numbers
+- Leap Year
+- Vowel or Consonant
+- Calculator using Switch
+
+---
+
+## 📁 03-Loops
+
+- For Loop
+- While Loop
+- Do While Loop
+- Factorial
+- Fibonacci
+- Prime Number
+- Reverse Number
+- Multiplication Table
+- Patterns
+
+---
+
+## 📁 04-Arrays
+
+- Array Input
+- Array Output
+- Array Sum
+- Average
+- Maximum Element
+- Minimum Element
+- Reverse Array
+- Search
+
+---
+
+## 📁 05-Functions
+
+- Function Introduction
+- Addition Function
+- Factorial Function
+- Fibonacci Function
+- Prime Function
+- Recursive Factorial
+
+---
+
+## 📁 06-Pointers
+
+- Pointer Introduction
+- Pointer Addition
+- Pointer Array
+- Swap using Pointer
+
+---
+
+## 📁 07-Structures
+
+- Student Structure
+- Employee Structure
+- Nested Structure
+
+---
+
+## 📁 08-File-Handling
+
+- Create File
+- Write File
+- Read File
+- Append File
+- Copy File
+
+---
+
+## 📁 09-Projects
+
+- Student Management System
+- Library Management System
+- Bank Management System
+- Hotel Management System
+- Quiz Game
+- Tic Tac Toe
+- Snake Game
+
+---
+
+# 💻 Requirements
+
+- GCC Compiler
+- Visual Studio Code
+- Code::Blocks / Dev-C++
+- Windows / Linux
+
+---
+
+# ▶️ Compile & Run
+
+Compile
 
 ```bash
-git clone https://github.com/ACP2008/C-Programming.git
+gcc filename.c -o program
 ```
 
-### Open Folder
+Run
 
 ```bash
-cd C-Programming
+./program
 ```
-
-### Compile Program
-
-Using GCC
-
-```bash
-gcc filename.c -o output
-```
-
-### Run
 
 Windows
 
 ```bash
-output.exe
-```
-
-Linux / macOS
-
-```bash
-./output
+program.exe
 ```
 
 ---
 
-# 📚 Topics Covered
+# 🎯 Learning Path
 
-- Variables
-- Data Types
-- Operators
-- Input / Output
-- Decision Making
-- Loops
-- Functions
-- Arrays
-- Strings
-- Pointers
-- Structures
-- File Handling
-- Pattern Programs
-- Number Programs
-- Mini Projects
-
----
-
-# 🎯 Learning Goals
-
-- Learn C Programming from scratch
-- Improve coding logic
-- Build strong programming fundamentals
-- Prepare for Data Structures
-- Prepare for C++
-- Prepare for Data Science
+```
+Basics
+   ↓
+Decision Making
+   ↓
+Loops
+   ↓
+Arrays
+   ↓
+Functions
+   ↓
+Pointers
+   ↓
+Structures
+   ↓
+File Handling
+   ↓
+Projects
+```
 
 ---
 
-# 📈 Progress
+# 📈 Repository Goals
 
-| Topic | Status |
-|--------|--------|
-| Basics | ✅ |
-| Operators | ✅ |
-| If Else | ⬜ |
-| Switch | ⬜ |
-| Loops | ⬜ |
-| Functions | ⬜ |
-| Arrays | ⬜ |
-| Strings | ⬜ |
-| Pointers | ⬜ |
-| Structures | ⬜ |
-| File Handling | ⬜ |
-| Mini Projects | ⬜ |
+- Learn C Programming from Scratch
+- Improve Problem Solving
+- Build Programming Logic
+- Practice College Practicals
+- Prepare for Interviews
 
 ---
 
-# 🤝 Contributions
+# ⭐ Features
 
-This repository is mainly for learning purposes.
-
-Suggestions and improvements are always welcome!
-
----
-
-# ⭐ Support
-
-If you found this repository useful,
-
-⭐ Star the repository.
+- Beginner Friendly
+- Well Organized
+- Easy to Understand
+- Step-by-Step Programs
+- Clean Code
+- Practical Examples
 
 ---
 
-## 👨‍💻 Author
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
 
 **Ayush Prajapati**
 
 GitHub: https://github.com/ACP2008
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
+⭐ If you found this repository helpful, don't forget to Star it!
