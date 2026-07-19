@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+    FILE *file;
+    char text[100];
+
+    // Open file in append mode
+    file = fopen("student.txt", "a");
+
+    if (file == NULL)
+    {
+        printf("Error opening file!\n");
+        return 1;
+    }
+
+    printf("Enter text to append: ");
+    scanf(" %[^\n]", text);
+
+    fprintf(file, "%s\n", text);
+
+    fclose(file);
+
+    printf("Data appended successfully.\n");
+
+    return 0;
+}
